@@ -1,0 +1,96 @@
+* {
+    font-family: "Calibri"
+    ;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+header {
+    height: 50px;
+    width: 100%;
+    /* Sets border to bottom only */
+    border-bottom: 5px solid #99006b;
+    background-color: pink;
+    color: white;  
+    font-size: 30px;
+    text-align: end;
+    position: fixed;
+        top: 0;
+        left: 0;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    /* Sets border to bottom only */
+    border-bottom: 5px solid #99006b;
+    color: white;
+    background-color: rgb(41, 110, 82);
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+        left: 0;
+        right: 0;
+}
+
+.subHeader1 {
+    text-align: center;
+    color: #25604F;
+    font-size: 40px;
+    margin-bottom: 4px;
+    }
+
+.subHeader2 {
+    text-align: center;
+    color: #25604F;
+}
+
+.display-inline {
+    display: inline;
+    margin: 10px;
+    position: relative; 
+    bottom: -5px;
+}
+
+#image-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.center {
+    text-align: center;
+    font-size: 18px;
+    line-height: 50%;
+    color: #25604F
+}
+
+#section1 {
+    padding-top: 20px;
+}
+
+#footerAlign {
+    position: relative;
+}
+
+#contactSection {
+    background-color: pink;
+    height: auto;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+#contactForm {
+    display: block;
+    border: solid #99006b;
+        width: 300px;
+    position: relative;
+        left: 40%;
+}
